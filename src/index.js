@@ -2,6 +2,7 @@ import axios from 'axios'
 const userList = []
 const email = process.env.email.split(',')
 const passwd = process.env.passwd.split(',')
+
 email.forEach((e, i) => {
   userList.push({
     email: e,
