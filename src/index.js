@@ -18,7 +18,7 @@ function checkIn() {
         code: ''
       })
       .then(({ data, headers }) => {
-        console.log(data)
+        console.log(item.email, data)
         if (data.ret) {
           const cookie = headers['set-cookie'].join(';')
           axios
@@ -33,9 +33,9 @@ function checkIn() {
             )
             .then(({ data }) => {
               if (data.ret) {
-                console.log(item.email, data.msg, 1)
+                console.log(item.email, data.msg)
               } else {
-                console.log(item.email, data.msg, 2)
+                console.log(item.email, data.msg)
               }
             })
         }
