@@ -33,9 +33,9 @@ function checkIn() {
             )
             .then(({ data }) => {
               if (data.ret) {
-                console.log(data.msg, 1)
+                console.log(item.email, data.msg, 1)
               } else {
-                console.log(data.msg, 2)
+                console.log(item.email, data.msg, 2)
               }
             })
         }
