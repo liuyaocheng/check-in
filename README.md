@@ -6,7 +6,7 @@
 
 EMAIL：123@qq.com,567@outlook.com
  
-PASSWD：ccc,aaa
+PASSWD：ccc,aaa 
 
 支持多账号，账号之间与密码之间用半角逗号分隔，账号与密码的个数要对应。 
 
